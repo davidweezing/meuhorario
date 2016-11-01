@@ -9,8 +9,14 @@ require 'open-uri'
 # www.supac.ufba.br para obter as novas URLs
 #
 
-BASE_URL = 'https://twiki.ufba.br/twiki/bin/view/SUPAC/GradGuia'
-BASE_URL_UNIDADE = 'https://twiki.ufba.br/twiki/bin/view/SUPAC/MatriculaGraduacaoUnidade1'
+#Alterações feitas por David [davidsodre_ba@hotmail.com] para o semestre 2016.2
+# link com o guia novo: https://supac.ufba.br/guiamatriculaunidade_2016.2
+# URL Antiga
+#BASE_URL = 'https://twiki.ufba.br/twiki/bin/view/SUPAC/GradGuia'
+#BASE_URL_UNIDADE = 'https://twiki.ufba.br/twiki/bin/view/SUPAC/MatriculaGraduacaoUnidade1'
+
+BASE_URL = 'https://supac.ufba.br/guiamatriculaunidade_2016.2'
+BASE_URL_UNIDADE = 'https://supac.ufba.br/guiamatriculaunidade_2016.2'
 
 ###################
 
